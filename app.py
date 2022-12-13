@@ -81,7 +81,7 @@ if selected == 'Eingabe: Einheit':
 
     # ----------
 
-if selected == 'Auswertung: Einhiet':
+if selected == 'Auswertung: Einheit':
 
     st.header('Auswertung')
     with st.form('Letzte Einheite'):
