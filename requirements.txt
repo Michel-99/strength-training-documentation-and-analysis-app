@@ -1,5 +1,5 @@
 pandas==1.5.2
 streamlit==1.15.2
-streamlit_option_menu as option_menu
+streamlit_option_menu 
 deta==1.1.0
 DateTime==4.7
