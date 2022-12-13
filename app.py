@@ -3,8 +3,8 @@ import streamlit as st
 from deta import Deta
 from datetime import datetime
 
-#headers={
-#    "authorization":st.secrets[
+headers={
+    "authorization":st.secrets["DETA_KEY"]}
 
 
 key =st.secrets["DETA_KEY"]
