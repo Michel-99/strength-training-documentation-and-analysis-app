@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 
-key =(DETA_KEY)
+key =st.secrets[DETA_KEY]
 
 
 
