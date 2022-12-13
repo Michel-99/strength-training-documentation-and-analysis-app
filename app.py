@@ -44,7 +44,7 @@ layout = 'centered'
 st.set_page_config(page_title=('Trainingsdokumentation'), layout=layout)
 st.title('Trainingsdokumentation')
 
-selected = option_menu(
+selected = streamlit_option_menu(
     menu_title=None,
     options=('Eingabe: Einheit', 'Auswertung: Einhiet'),
     orientation='horizontal')
