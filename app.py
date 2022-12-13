@@ -47,7 +47,7 @@ st.title('Trainingsdokumentation')
 
 selected = option_menu(
     menu_title=None,
-    options=('Eingabe: Einheit', 'Auswertung: Einhiet'),
+    options=('Eingabe: Einheit', 'Auswertung: Einheit'),
     orientation='horizontal')
 
 if selected == 'Eingabe: Einheit':
