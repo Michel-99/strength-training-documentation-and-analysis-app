@@ -45,7 +45,7 @@ layout = 'centered'
 st.set_page_config(page_title=('Trainingsdokumentation'), layout=layout)
 st.title('Trainingsdokumentation')
 
-selected = option_menu(menu_title=None, options=(['Eingabe: Einheit', 'Auswertung: Einheit']), orientation=('horizontal'))
+selected = option_menu(None,['Eingabe: Einheit', 'Auswertung: Einheit'], orientation='horizontal')
 
 if selected == 'Eingabe: Einheit':
     with st.form('Trainingsdokumentation', clear_on_submit=True):
