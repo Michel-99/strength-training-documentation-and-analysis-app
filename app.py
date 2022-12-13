@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import streamlit_option_menu as option_menu
 from deta import Deta
 from datetime import datetime
 
