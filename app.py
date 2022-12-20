@@ -95,7 +95,7 @@ if selected == 'Auswertung: Einheit':
             letzte_einheit = fetch_date(datum_einheit)
             df = pd.DataFrame(letzte_einheit)
             df = df.drop(['key', 'Datum'], axis=1)
-            df = df.set_index(['Übung', 'Satz'])
+            df = df.set_index(['Übung'])
             df = df.sort_values('Satz')
 
             st.write(df.to_html(), unsafe_allow_html=True)
