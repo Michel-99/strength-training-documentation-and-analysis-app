@@ -5,7 +5,7 @@ from supabase import create_client, Client
 from datetime import datetime, timedelta
 import numpy as np
 import plotly.express as ff
-## pass: vrRfnpnTTgst9rZr
+
 
 supabase = create_client(url, key)
 response = supabase.table("Training").select("*").execute()
