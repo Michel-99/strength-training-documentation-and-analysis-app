@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 import numpy as np
 import plotly.express as ff
 
+headers={
+    "authorization":st.secrets["url", "key"]}
 
 supabase = create_client(url, key)
 response = supabase.table("Training").select("*").execute()
