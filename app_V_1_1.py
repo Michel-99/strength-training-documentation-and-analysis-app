@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from streamlit_option_menu import option_menu
+import supabase
 from supabase import create_client, Client
 from datetime import datetime, timedelta
 import numpy as np
