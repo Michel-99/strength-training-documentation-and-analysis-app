@@ -9,6 +9,9 @@ import plotly.express as ff
 headers={
     "authorization":st.secrets["url", "key"]}
 
+key =st.secrets["key"]
+url = st.secrets["url"]
+
 supabase = create_client(url, key)
 response = supabase.table("Training").select("*").execute()
 
