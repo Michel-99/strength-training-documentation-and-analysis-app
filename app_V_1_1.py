@@ -7,10 +7,10 @@ import numpy as np
 import plotly.express as ff
 
 headers={
-    "authorization":st.secrets["url", "key"]}
+    "authorization":st.secrets["key"]}
 
 key =st.secrets["key"]
-url = st.secrets["url"]
+url = "https://wkjqifguhdtifocgczke.supabase.co"
 
 supabase = create_client(url, key)
 response = supabase.table("Training").select("*").execute()
